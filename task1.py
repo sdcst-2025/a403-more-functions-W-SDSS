@@ -14,8 +14,11 @@ assert btcTocad(1) == 45000
 (2 points) 
 """
 
-def btcTocad():
-    pass
+def btcTocad(x):
+    if not isinstance(x, int) or x>=0:
+        print("error")
+    y = x*45000
+    return y
 
 
 """
@@ -28,3 +31,6 @@ if __name__ == "__main__":
     assert btcTocad(1) == 45000
     assert btcTocad(2.5) == 112500
     assert btcTocad('one') == 'error'
+
+
+#assert 3 ga umakuikanai
