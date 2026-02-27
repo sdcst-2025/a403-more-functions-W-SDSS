@@ -15,10 +15,10 @@ assert btcTocad(1) == 45000
 """
 
 def btcTocad(x):
-    if not isinstance(x, int) or x>=0:
-        print("error")
-    y = x*45000
-    return y
+    currBTC = 45000
+    if not isinstance(x, (int, float) or x<0:
+        return "error"
+    return x*currBTC
 
 
 """
@@ -31,6 +31,3 @@ if __name__ == "__main__":
     assert btcTocad(1) == 45000
     assert btcTocad(2.5) == 112500
     assert btcTocad('one') == 'error'
-
-
-#assert 3 ga umakuikanai
