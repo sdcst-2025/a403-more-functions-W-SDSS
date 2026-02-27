@@ -14,8 +14,11 @@ You may want to use the math module to complete this problem
 import math
 
 def area(x):
-    w = math.pi*x**2
-    return w
+    if not isinstance(x, (int, float)):
+        return None
+    if x <0:
+        return None
+    return  math.pi * x**2
 
 
 assert round(area(2),2) == 12.57
