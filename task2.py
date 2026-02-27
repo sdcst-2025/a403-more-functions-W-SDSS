@@ -17,3 +17,5 @@ assert compoundInterest(1000,4,2,4) == 1082.86
 assert compoundInterest(2500,4.2,20,12) == 5782.43
 assert compoundInterest(83,7,5,365) == 117.78
 assert compoundInterest(10000,3,10,2) == 13468.55
+
+#only count interest earned? or the whole money earned
