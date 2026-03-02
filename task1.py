@@ -16,7 +16,7 @@ assert btcTocad(1) == 45000
 
 def btcTocad(x):
     currBTC = 45000
-    if not isinstance(x, (int, float) or x<0:
+    if not isinstance(x, (int, float)) or x<0:
         return "error"
     return x*currBTC
 

@@ -16,10 +16,10 @@ assert hypotenuse(6,8) == 10
 """
 import math
 
-def hypotenuse(x, y):
-    if not isinstance(x, (int, float) or (y, (int, float):
+def hypotenuse(x,y):
+    if not isinstance(x, (int, float)) or (y, (int, float)):
         return None
-    if x<=0 or y<=0:
+    elif not x<=0 or y<=0:
         return None
     return round(math.sqrt(x**2 + y**2), 2)
 
