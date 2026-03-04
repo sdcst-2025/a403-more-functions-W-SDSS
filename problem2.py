@@ -22,9 +22,12 @@ assert triangle(1,1,4) == 0
 """
 
 def triangle(a, b, c):
-    stored(triangle)
+    w = sorted([a, b, c])
+    a, b, c = w[0], w[1], c[2]
     if a+b<=c:
         return 0
+    if
+    
 
 def tests():
     assert triangle(12,5,13) == 2     
@@ -35,3 +38,5 @@ def tests():
 
 if __name__== "__main__":
     tests()
+
+#error ga aru

@@ -26,3 +26,5 @@ def hypotenuse(x,y):
 assert hypotenuse(6,8) == 10
 assert hypotenuse(5,12) == 13
 assert hypotenuse(4,6) == 7.21
+
+#hitotume no assert de, assertionerror ga deru...
