@@ -22,11 +22,16 @@ assert triangle(1,1,4) == 0
 """
 
 def triangle(a, b, c):
-    w = sorted([a, b, c])
-    a, b, c = w[0], w[1], c[2]
+    a, b, c = sorted([a, b, c])
     if a+b<=c:
         return 0
-    if
+    elif a**2 + b**2 == c**2:
+        return 2
+    elif a**2 + b**2 > c**2:
+        return 1
+    else:
+        return 3
+
     
 
 def tests():
