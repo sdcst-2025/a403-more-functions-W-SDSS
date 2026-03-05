@@ -17,7 +17,7 @@ assert hypotenuse(6,8) == 10
 import math
 
 def hypotenuse(x,y):
-    if not isinstance(x, (int, float)) or (y, (int, float)):
+    if not isinstance(x, (int, float)) or not (y, (int, float)):
         return None
     elif not x<=0 or y<=0:
         return None
